@@ -1,0 +1,12 @@
+{
+  "categories": [
+    {
+      "name": "Star Wars",
+      "keywords": ["star war", "starwars", "starwar", "r2d2", "may the force be with you"]
+    },
+    {
+      "name": "Basketball",
+      "keywords": ["basketball", "nba", "ncaa", "lebron james", "john stockton", "anthony davis"]
+    }
+  ]
+}

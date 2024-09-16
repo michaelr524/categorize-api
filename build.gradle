@@ -1,0 +1,25 @@
+// Uses Spring Boot 2.7.18, the last/latest version that supports Java 8 (Spring Boot 3.x requires minimum Java 11)
+// https://docs.spring.io/spring-boot/docs/2.7.18/reference/html/dependency-versions.html
+plugins {
+    id 'org.springframework.boot' version '2.7.18'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+    id 'java'
+}
+
+group = 'com.categorize'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.jsoup:jsoup:1.18.1'
+}
+
+test {
+    useJUnitPlatform()
+}
